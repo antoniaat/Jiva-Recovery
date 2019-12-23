@@ -1,0 +1,27 @@
+@keyframes fadeIn {
+    0% {
+        background-color: rgba(31, 189, 189, 1);
+        box-shadow: 5px 5px 0px 0px rgba(31, 189, 189, 1);
+        transform: translate(-2px, -2px)
+    }
+
+    100% {
+        background-color: rgba(31, 189, 189, 1);
+        box-shadow: -5px -5px 0px 0px rgba(255, 255, 255, 1);
+        transform: translate(2px, 2px)
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        background-color: rgba(31, 189, 189, 1);
+        box-shadow: -5px -5px 0px 0px rgba(31, 189, 189, 1);
+        transform: translate(2px, 2px)
+    }
+
+    100% {
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: 5px 5px 0px 0px rgba(31, 189, 189, 1);
+        transform: translate(-2px, -2px)
+    }
+}
