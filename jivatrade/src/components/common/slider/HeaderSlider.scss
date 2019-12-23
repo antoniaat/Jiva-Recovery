@@ -1,0 +1,60 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+@import '../../../styles/styles.scss';
+
+.HeaderSlider {
+    height: 300px;
+    width: 100%;
+
+    header {
+        position: absolute;
+        padding-top: 2em;
+        top: 100px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        color: white;
+
+        h2:nth-child(2) {
+            color: $yellow;
+        }
+
+        p {
+            text-align: center;
+        }
+    }
+
+    img {
+        width: 100%;
+        max-width: 100%;
+        background: cover;
+        height: 500px;
+    }
+
+    .slick-arrow,
+    .slick-next {
+        display: none !important;
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: 462px;
+
+        li button:before {
+            color: white;
+        }
+
+        li.slick-active>button {
+
+            &::before,
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+    .char {
+        animation: an 1s ease-out 1 both;
+        display: inline-block;
+    }
+}

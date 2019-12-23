@@ -5,12 +5,14 @@ import "./Home.scss";
 
 // Import core components
 import Header from "../../components/common/header/Header";
+import HeaderSlider from "../../components/common/slider/HeaderSlider";
 
 class HomePage extends Component {
   render() {
     return (
       <div className="HomePage">
         <Header></Header>
+        <HeaderSlider></HeaderSlider>
         HomePage
       </div>
     );

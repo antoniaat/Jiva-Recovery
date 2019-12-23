@@ -2,6 +2,9 @@
 
 .Header {
     background: rgba(84, 84, 84, .8);
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
 
     ul {
         margin: 0 auto;
