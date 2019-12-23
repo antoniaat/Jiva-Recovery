@@ -7,6 +7,7 @@ import "./Home.scss";
 import Header from "../../components/common/header/Header";
 import HeaderSlider from "../../components/common/slider/HeaderSlider";
 import Cta from "../../components/common/cta/Cta";
+import Services from "../../components/common/services/Services";
 
 class HomePage extends Component {
   render() {
@@ -15,6 +16,7 @@ class HomePage extends Component {
         <Header></Header>
         <HeaderSlider></HeaderSlider>
         <Cta></Cta>
+        <Services></Services>
       </div>
     );
   }
