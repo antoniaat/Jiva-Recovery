@@ -1,1 +1,15 @@
 @import '../../styles/styles.scss';
+
+.home-page-gallery,
+.react-photo-gallery--gallery {
+    position: relative;
+    top: 13em;
+
+    img {
+        filter: grayscale(70%);
+
+        &:hover {
+            filter: grayscale(0%);
+        }
+    }
+}
