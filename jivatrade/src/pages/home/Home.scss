@@ -13,3 +13,56 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .HomePage {
+        .Header ul li {
+            display: block;
+            width: 30%;
+            margin: 0 auto;
+
+            &:nth-child(3) {
+                img {
+                    border-radius: 15px;
+                }
+            }
+        }
+
+        h2 {
+            font-size: 1em;
+        }
+
+        .HeaderSlider header {
+            padding-top: 8em;
+        }
+
+        .Cta article {
+            height: auto;
+            display: block;
+            padding: 1em;
+            width: 90%;
+        }
+
+        .Cta article:nth-child(2) {
+            clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 9% 50%, 0% 0%)
+        }
+
+        .Services .service-title {
+            width: 100%;
+        }
+
+        .Services main .Service {
+            display: block;
+            width: 90%;
+        }
+
+        .Footer {
+            padding: 0.5em;
+
+            section {
+                width: 86.7%;
+                display: block;
+            }
+        }
+    }
+}
