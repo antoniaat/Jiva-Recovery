@@ -8,6 +8,7 @@ import Header from "../../components/common/header/Header";
 import HeaderSlider from "../../components/common/slider/HeaderSlider";
 import Cta from "../../components/common/cta/Cta";
 import Services from "../../components/common/services/Services";
+import Footer from "../../components/common/footer/Footer";
 
 class HomePage extends Component {
   render() {
@@ -17,6 +18,7 @@ class HomePage extends Component {
         <HeaderSlider></HeaderSlider>
         <Cta></Cta>
         <Services></Services>
+        <Footer></Footer>
       </div>
     );
   }
